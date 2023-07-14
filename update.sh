@@ -17,7 +17,7 @@ python -m build
 python -m twine upload dist/*
 
 #update git
-git add .
+git add -A
 git commit -m "update to version $new_version"
 git push
 

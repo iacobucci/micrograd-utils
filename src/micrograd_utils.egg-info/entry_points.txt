@@ -1,2 +1,0 @@
-[console_scripts]
-vml = vml_parser.vml:main

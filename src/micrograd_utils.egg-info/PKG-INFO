@@ -1,9 +1,9 @@
 Metadata-Version: 2.1
 Name: micrograd-utils
-Version: 0.0.2
+Version: 0.0.3
 Summary: utils for micrograd
 Author-email: Valerio Iacobucci <valerio@valerioiacobucci.com>
-Project-URL: Homepage, https://github.com/iacobucci/vml
+Project-URL: Homepage, https://github.com/iacobucci/micrograd-utils
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -12,4 +12,4 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 
 # micrograd-utils
-These are some scrap utils i am experimenting on while learning about machine learning, together with [micrograd](https://github.com/karpathy/micrograd)
+These are some scrap *utils* i am randomly using while experimenting on machine learning, together with [micrograd](https://github.com/karpathy/micrograd)
