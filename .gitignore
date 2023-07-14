@@ -1,0 +1,5 @@
+.vscode
+dist
+vml_parser/__pycache__
+vml_parser.egg-info
+tests/__pycache__
