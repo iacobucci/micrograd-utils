@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: micrograd-utils
-Version: 0.0.4
+Version: 0.0.5
 Summary: utils for micrograd
 Author-email: Valerio Iacobucci <valerio@valerioiacobucci.com>
 Project-URL: Homepage, https://github.com/iacobucci/micrograd-utils

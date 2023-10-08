@@ -1,19 +1,21 @@
+from micrograd.nn import *
+from micrograd.engine import *
 import pytest
 import sys
 import os
 
 # Ottieni il percorso completo alla directory src/micrograd_utils
-src_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../src/micrograd_utils'))
+src_path = os.path.abspath(os.path.join(
+    os.path.dirname(__file__), '../../src/micrograd_utils'))
 
 # Aggiungi src al percorso di ricerca dei moduli
 sys.path.insert(0, src_path)
 
+
 import utils
 
-from micrograd.engine import *
-from micrograd.nn import *
 
-def dump():
+def test_dump():
     d = {
         (0,): 0,
         (1,): 1,
@@ -40,7 +42,12 @@ def dump():
 
     utils.dump(m)
 
-def load():
+
+def test_load():
+    src_path = os.path.abspath(os.path.join( os.path.dirname(__file__), '.'))
+
+    sys.path.insert(0, src_path)
+
     import params
 
     m = params.model()
@@ -56,3 +63,6 @@ def load():
 
         assert abs(result.data - x[0]) < 0.01
 
+
+if __name__ == "__main__":
+    pytest.main()
