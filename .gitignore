@@ -1,5 +1,6 @@
 .vscode
 dist
-vml_parser/__pycache__
-vml_parser.egg-info
-tests/__pycache__
+**/__pycache__/
+**.egg-info
+tests/micrograd_utils/params.py
+
